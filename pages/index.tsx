@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-
 import { IPost } from "@/lib/types";
 import PostService from "@/lib/service/PostService";
 import HomeSEO from "@/components/seo/HomeSEO";
@@ -77,7 +75,7 @@ const Home = ({ posts }: Props) => {
                           layout="fill"
                           objectFit="cover"
                           objectPosition="center"
-                          className="rounded-md "
+                          className="rounded-md"
                           priority
                           placeholder="blur"
                           blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
